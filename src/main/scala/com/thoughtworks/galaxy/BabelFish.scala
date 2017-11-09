@@ -37,7 +37,6 @@ object BabelFish {
     * */
   def romanToNumber(roman: String)(conversionRate: Int = 1): Either[Error, Int] = ???
 
-
   /**
     * Input: glob
     * Outout: I
