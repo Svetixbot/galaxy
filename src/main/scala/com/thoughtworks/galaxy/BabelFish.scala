@@ -28,18 +28,25 @@ object BabelFish {
   /**
     * Input: pish tegj glob glob
     * Output: LXII
+    *
+    * Try to use foldLeft and pattern matching
     * */
   def alienToRoman(alien: Map[String, String])(token: String): Either[Error, String] = ???
 
   /**
     * Input: LXII
     * Outout: 42
+    *
+    * Try to use foldLeft and pattern matching
     * */
   def romanToNumber(roman: String)(conversionRate: Int = 1): Either[Error, Int] = ???
 
   /**
     * Input: glob
     * Outout: I
+    *
+    * Try to get stuff from the map in a safe way and
+    * use pattern matching to convert the structure into Either
     * */
   def toRoman(alienDictionary: Map[String, String])(value: String): Either[Error, String] = ???
 
