@@ -13,7 +13,7 @@ class BabelFishSpec extends FlatSpec with Matchers  {
   }
 
   "The Babel fish" should "translate roman numbers into arabic" in {
-    romanToNumber("XLII") shouldEqual Right("42")
+    romanToNumber("XLII")(1) shouldEqual Right("42")
   }
 
   "The Babel fish" should "translate alien numbers into roman" in {
